@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="text-align: right;height: 50px;"> <a class="button" href="index.html">Back</a> </div>
+        <form action="https://www.google.com/search" >
+            <div>
+            <div style="text-align: left;margin: 10px;width: 500px;"><label for="as_q">以下所有字词:</label></div> 
+            <div><input type="text" name="as_q" class="search_bar" id="as_q"></div>
+            </div>
+
+            <div>
+            <div style="text-align: left;margin: 10px;width: 500px;"><label for="as_epq">与以下字词完全匹配:</label></div> 
+            <div><input type="text" name="as_epq" class="search_bar" id="as_epq"></div>
+            </div>
+
+            <div>
+            <div style="text-align: left;margin: 10px;width: 500px;"><label for="as_oq">含以下任意字词:</label></div>       
+            <div><input type="text" name="as_oq" class="search_bar"id="as_oq"></div>
+            </div>
+
+            <div>
+            <div style="text-align: left;margin: 10px;width: 500px;"><label for="as_eq">不含以下任意字词:</label></div>     
+            <div><input type="text" name="as_eq" class="search_bar"id="as_eq"></div>
+            </div>
+
+            <div style="text-align: left;"><input type="hidden" name="as_occt" value="any"></div>
+            <div style="text-align: left;margin: 10px;"><input type="submit" value="Advanced Search" class="button"></div>
+        </form>
+    </body>
+</html>

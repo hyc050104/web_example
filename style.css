@@ -1,0 +1,22 @@
+.search_bar{
+    border-radius: 2em;
+    border: rgb(218, 218, 218) solid 1px;
+    width: 552px;
+    height: 42px;
+    
+}
+
+.button{
+    text-align:center;
+    border: none;
+    height: 30px;
+    background-color: rgb(77, 144, 254);
+    color:rgb(253, 253, 253);
+  
+}
+a.button{
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(20, 73, 152);
+}
